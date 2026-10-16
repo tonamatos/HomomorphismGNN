@@ -313,3 +313,32 @@ TSWLatexianTemp*
 #*Notes.bib
 
 papers/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python (safe defaults; keep/remove as needed) ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.envrc
+
+# --- secrets & local config ---
+.env
+*.env
+!.env.example
+
+data_raw/*
